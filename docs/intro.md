@@ -2,46 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Mynders Plugin Development Documentation! Mynders is an innovative organizational platform designed to help users manage their thoughts, notes, to-dos, and any other information they wish to keep track of in a structured manner. At the core of Mynders is a flexible folder system, which users can customize extensively to suit their organizational needs. However, the true power of Mynders lies in its ability to be enhanced with plugins.
+
+## Purpose of Plugins
+
+Plugins are standalone components that bring functionality to the folders they're attached to. Whether it's for taking notes, managing passwords, or keeping track of tasks, each plugin transforms a folder into a dynamic workspace tailored to specific needs. By developing plugins for Mynders, you contribute to a growing ecosystem of tools that help users worldwide organize their digital lives more effectively.
+
+## Importance to the Ecosystem
+
+As a developer, your contributions are vital to the Mynders ecosystem. Your creativity and innovation drive the platform's versatility, enabling users to customize their experience to an unprecedented degree. Each plugin you create opens up new possibilities for users, making Mynders not just an organizational tool, but a personal assistant shaped by their needs and your imagination.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Creating plugins for Mynders is a straightforward process designed to be accessible for developers with a basic understanding of web development. Our documentation is here to guide you through every step of the journey, from setting up your development environment to deploying your first plugin. With a focus on clarity and efficiency, we'll provide you with all the information you need to become a successful plugin developer for Mynders.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Let's embark on this exciting journey together, and turn your innovative ideas into reality for users of Mynders around the globe.
