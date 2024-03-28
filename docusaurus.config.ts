@@ -67,6 +67,11 @@ const config: Config = {
       },
       items: [
         {
+          to: "https://developers.mynders.com",
+          label: "Portal",
+          position: "right",
+        },
+        {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "right",
