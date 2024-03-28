@@ -1,5 +1,6 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import Hero from "../components/Hero";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -9,7 +10,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <main
-        className="flex-1 p-6 flex flex-col md:items-center"
+        className="flex-1 p-6 pt-8 flex flex-col md:items-center"
         style={{
           backgroundColor: "#fff",
           backgroundImage: `radial-gradient(#bfdeff 0.6px, transparent 0.8px)`,
@@ -31,6 +32,7 @@ export default function Home(): JSX.Element {
             Developers
           </div>
         </div>
+        <Hero />
       </main>
     </Layout>
   );
