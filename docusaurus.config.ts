@@ -6,7 +6,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs"; // add this
 const config: Config = {
   title: "Mynders Developers",
   tagline: "Binders for your Mind",
-  favicon: "img/favicon.ico",
+  favicon: "img/icon32.png",
 
   // Set the production url of your site here
   url: "https://developers.mynders.com",
