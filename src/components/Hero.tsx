@@ -18,7 +18,7 @@ function Hero() {
         right from the start.
       </h2>
 
-      <div className="mt-4 flex flex-col gap-2 items-center">
+      <div className="mt-4 flex flex-col gap-2 items-start lg:!items-center">
         <a
           href="docs/intro"
           className="flex group gap-2 rounded-lg px-5 py-2.5 items-center border-b-4 border-b-purple-400 bg-purple-600 relative z-30 text-white text-sm lg:text-base font-semibold"
