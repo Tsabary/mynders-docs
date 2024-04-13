@@ -17,21 +17,6 @@ export default function Home(): JSX.Element {
           backgroundSize: "10px 10px",
         }}
       >
-        <div className="w-full flex justify-start md:justify-center gap-2">
-          <a
-            href="https://mynders.com"
-            className="bg-white px-3 py-1 rounded-3xl text-sm text-gray-500 cursor-pointer hover:no-underline"
-            style={{ border: "1px solid #6b7280" }}
-          >
-            Everyone Else
-          </a>
-          <div
-            className="bg-white px-3 py-1 rounded-3xl text-sm shadow-lg shadow-purple-500/20 font-semibold text-purple-600 cursor-pointer"
-            style={{ border: "1px solid #c084fc" }}
-          >
-            Developers
-          </div>
-        </div>
         <Hero />
       </main>
     </Layout>

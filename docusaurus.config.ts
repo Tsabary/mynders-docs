@@ -9,7 +9,7 @@ const config: Config = {
   favicon: "img/icon32.png",
 
   // Set the production url of your site here
-  url: "https://developers.mynders.com",
+  url: "https://docs.mynders.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -84,7 +84,7 @@ const config: Config = {
       },
       items: [
         {
-          to: "https://developers.mynders.com",
+          to: "https://devs.mynders.com",
           label: "Portal",
           position: "right",
         },
@@ -125,10 +125,10 @@ const config: Config = {
               label: "Discord",
               to: "https://discord.gg/tMFZ5nMh",
             },
-            // {
-            //   label: "Twitter",
-            //   to: "https://twitter.com/docusaurus",
-            // },
+            {
+              label: "Reddit",
+              to: "https://www.reddit.com/r/Mynders/",
+            },
           ],
         },
         // {
