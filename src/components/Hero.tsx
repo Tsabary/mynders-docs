@@ -7,7 +7,7 @@ function Hero() {
         className="h-28 w-28 lg:h-40 lg:w-40"
       />
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl tracking-tight font-poppins font-semibold mt-6 md:text-center">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl tracking-tight font-grotesk font-semibold mt-6 md:text-center">
         Build{" "}
         <span className="text-violet-600">Your Ideal Productivity Tool</span> in
         Days Instead of Weeks

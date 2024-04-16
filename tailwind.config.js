@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         sans: ["Assistant"],
         poppins: ["Poppins"],
+        grotesk: ["Space Grotesk"],
       },
     },
   },

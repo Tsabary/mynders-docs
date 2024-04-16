@@ -13,6 +13,7 @@ In this section, we'll detail the API functionalities available to your plugin w
 ### Folder Information
 
 - **`folderId`**: The ID of the folder in which the plugin is currently being accessed. This is essential for ensuring that your plugin operates within the correct context and can manage data appropriately for each folder.
+- **`isHome`**: A boolean value that is only set to true when the plugin is currently open in the user's home folder.
 - **`isLosingFocus`**: A boolean value that is set to true when your component is losing focus by the user naviating to a child-folder. You can listen to this value changes in a useEffect to execute any actions you desie when that occurs (for example, closing an open modal). If the user naviates away from your plugin by going back to a parent folder, or by naviating to a different plugin in the same folder, your component will simply unmount.
 
 ### Data and File Encryption/Decryption
