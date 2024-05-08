@@ -1,6 +1,8 @@
 function Hero() {
   return (
-    <div className="mx-auto flex flex-col items-start md:items-center justify-center w-full max-w-4xl">
+    <div
+      className="mx-auto flex flex-col items-start md:items-center justify-center w-full max-w-4xl"
+    >
       <img
         src="./img/bulb.png"
         alt="bulb"
@@ -14,8 +16,8 @@ function Hero() {
       </h1>
       <h2 className="font-sans font-normal mt-2 text-gray-600 text-lg lg:text-xl md:text-center w-full">
         With authentication, encryption and a built-in folder structure, you can
-        skip the boring part and focus on creataive part of building your tool
-        right from the start.
+        skip the boring part and focus on the creataive part of building your
+        tool right from the get-go.
       </h2>
 
       <div className="mt-4 flex flex-col gap-2 items-start lg:!items-center">

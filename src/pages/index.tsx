@@ -1,6 +1,8 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Hero from "../components/Hero";
+import { generateBackgroundPattern } from "../helpers/generateBackgroundPattern";
+import { gradiantArrays } from "../constants/gradiant-arrays";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -11,13 +13,10 @@ export default function Home(): JSX.Element {
     >
       <main
         className="flex-1 p-6 pt-8 flex flex-col md:items-center"
-        style={{
-          backgroundColor: "#fff",
-          backgroundImage: `radial-gradient(#bfdeff 0.6px, transparent 0.8px)`,
-          backgroundSize: "10px 10px",
-        }}
+        style={generateBackgroundPattern(...gradiantArrays.white)}
       >
         <Hero />
+        {/* <Faq /> */}
       </main>
     </Layout>
   );
